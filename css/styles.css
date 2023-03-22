@@ -1,0 +1,183 @@
+body{
+    font-family: montserrat;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.container-fluid {
+    padding-left: 15%;
+    padding-top: 3%;
+    padding-right: 15%;
+    padding-bottom: 7%;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.navbar-brand {
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    font-weight: 500;
+
+}
+.nav-link {
+    font-family: montserrat-regular;
+}
+.nav-item {
+    padding: 0 18px;
+}
+
+h1 {
+    font-family: montserrat-black;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+h2{
+    font-family: montserrat-bold;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+h3 {
+    font-size: 1.5rem;
+    font-family: montserrat-bold;
+}
+.herotext{
+    padding-top: 2%;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+    border-radius: 6px;
+}
+
+.hero-image{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    left: 55%;
+}
+
+
+/* features */
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    
+}
+.col-feature{
+   text-align: center;
+   margin-bottom: 20px;
+}
+.icon{
+    font-size: 52px;
+    color: #ef8172;
+    padding: 15px;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+.fa-bars{
+    font-size: 24px;
+    color: #fff;
+}   
+.navbar-toggler{
+    border: none;
+}
+.feature-desc{
+    color: #8f8f8f;
+    font-size: 12px;
+    width: 200px;
+    margin: auto;
+}
+
+/* testimonials */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+#press{
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-img{
+    width: 12%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+    padding: 80px;
+    text-align: center;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+
+/* Call to action */
+
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    padding: 10%;
+
+}
+.ctext {
+    font-family: montserrat-black;
+    font-size: 40px;
+    width: 70%;
+    margin: auto;
+}
+
+/* footer */
+
+#footer {
+    margin: 8%;
+    text-align: center;
+}
+
+.icon-foot{
+    margin: 1%;
+}
+
+
+/* Responsiveness */
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .hero-image{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+        padding-top: 16px;
+    }
+    h2{
+        font-size: 24px;
+    }
+    .ctext {
+        font-size: 24px;
+    }
+}
